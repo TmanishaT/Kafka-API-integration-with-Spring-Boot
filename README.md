@@ -98,6 +98,7 @@ For consuming messages, we just use @KafkaListener annotation with the suitable 
 
 ### 4. Multi-Partition Messaging Example
 This example will demonstrate usage of Kafka with multi-partitioned topic with two consumer groups.
+By default the application will create all the topics used in different API at the spring-boot application startup. To check for multipartition, you need to remove the 'kafkaMultiPartitionTopic' and recreate it with 3 partitions.
 
 For this example, we first create a new topic "kafkaMultiPartitionTopic" with 3 partitions and also add it to our application.yml file under resource folder.
 ```bash
@@ -410,3 +411,5 @@ public class SimpleKafkaMessageTest {
 - [Confluent]
 - [Kafdrop]
 - [KafkaTool]
+### - CLI commands to view, delete topics
+https://jaceklaskowski.gitbooks.io/apache-kafka/content/kafka-topic-deletion.html

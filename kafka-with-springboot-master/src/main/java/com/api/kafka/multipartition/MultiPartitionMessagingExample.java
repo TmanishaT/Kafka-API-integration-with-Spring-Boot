@@ -30,13 +30,11 @@ public class MultiPartitionMessagingExample {
         }
     }
 
-    @Bean
-    public MultiPartitionMessageProducer multiPartitionMessageProducer(){
-        return new MultiPartitionMessageProducer();
-    }
-
-    @Bean
-    public MultiPartitionMessageConsumer multiPartitionMessageConsumer(){
-        return new MultiPartitionMessageConsumer();
-    }
+	/*
+	 * @Bean public MultiPartitionMessageProducer multiPartitionMessageProducer(){
+	 * return new MultiPartitionMessageProducer(); }
+	 * 
+	 * @Bean public MultiPartitionMessageConsumer multiPartitionMessageConsumer(){
+	 * return new MultiPartitionMessageConsumer(); }
+	 */
 }

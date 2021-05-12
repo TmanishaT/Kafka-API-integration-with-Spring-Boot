@@ -26,12 +26,13 @@ public class KafkaStreamExample {
     }
 
 
-    @Bean
-    public SimpleKafkaMessageProducerForStreaming simpleKafkaMessageProducerForStreaming(){
-        return new SimpleKafkaMessageProducerForStreaming();
-    }
-
-    @Bean
-    public SimpleKafkaMessageConsumerForStreaming simpleKafkaMessageConsumerForStreaming(){ return new SimpleKafkaMessageConsumerForStreaming();
-    }
+	/*
+	 * @Bean public SimpleKafkaMessageProducerForStreaming
+	 * simpleKafkaMessageProducerForStreaming(){ return new
+	 * SimpleKafkaMessageProducerForStreaming(); }
+	 * 
+	 * @Bean public SimpleKafkaMessageConsumerForStreaming
+	 * simpleKafkaMessageConsumerForStreaming(){ return new
+	 * SimpleKafkaMessageConsumerForStreaming(); }
+	 */
 }

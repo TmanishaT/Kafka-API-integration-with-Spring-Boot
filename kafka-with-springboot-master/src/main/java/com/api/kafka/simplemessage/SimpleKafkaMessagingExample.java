@@ -28,13 +28,4 @@ public class SimpleKafkaMessagingExample {
         }
     }
 
-    @Bean
-    public SimpleKafkaMessageProducer simpleKafkaMessageProducer(){
-        return new SimpleKafkaMessageProducer();
-    }
-
-    @Bean
-    public SimpleKafkaMessageConsumer simpleKafkaMessageConsumer(){
-        return new SimpleKafkaMessageConsumer();
-    }
 }

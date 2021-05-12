@@ -32,13 +32,11 @@ public class BatchMessageConsumingExample {
         }
     }
 
-    @Bean
-    public MessageProducerForBatchListener messageProducer(){
-        return new MessageProducerForBatchListener();
-    }
-
-    @Bean
-    public BatchMessageConsumer batchMessageConsumer(){
-        return new BatchMessageConsumer();
-    }
+	/*
+	 * @Bean public MessageProducerForBatchListener messageProducer(){ return new
+	 * MessageProducerForBatchListener(); }
+	 * 
+	 * @Bean public BatchMessageConsumer batchMessageConsumer(){ return new
+	 * BatchMessageConsumer(); }
+	 */
 }
